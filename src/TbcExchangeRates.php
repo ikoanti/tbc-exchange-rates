@@ -9,6 +9,7 @@ class TbcExchangeRates
 {
     
     const apiUrl = "https://api.tbcbank.ge";
+    const CURRENCY_CODES = ['USD', 'EUR', 'GBP'];
 
     public static function get($currency = '')
     {
